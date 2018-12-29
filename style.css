@@ -1,0 +1,52 @@
+body {
+    margin: 0 150px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+div.contact {
+    position: relative;
+    width: 400px;
+    margin: 20px auto;  
+    padding: 40px;
+    background-color: #f2f2f2;
+}
+div.contact input, div.contact textarea{
+    width: 100%;
+}
+div.contact input:last-child {
+    width: 60px;
+}
+.js div.contact {
+    display: none;
+}
+.close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+li img {
+    width: 400px;
+}
+.slider {
+    width: 400px;
+    overflow: hidden;
+}
+.slider ul {
+    width: 10000px;
+}
+li {
+    float: left;
+}
+#slider-nav button{
+    margin: 10px 0 0 10px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
